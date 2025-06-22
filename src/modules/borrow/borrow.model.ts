@@ -12,7 +12,7 @@ const borrowSchema = new Schema(
   }
 );
 
-// 🔁 Post-save logic: Update book copies and availability
+// Post-save logic: Update book copies and availability
 borrowSchema.post('save', async function () {
   const borrow = this;
 
