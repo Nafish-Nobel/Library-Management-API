@@ -9,12 +9,12 @@ app.use(cors(
   {
     origin: ["https://library-frontend-gam7rflx7-nafish-nobels-projects.vercel.app", "http://localhost:5173"],
     methods: ["POST", "GET", "DELETE", "PUT"],
-    credentials: true
+    credentials: true,
   }
 ));
 
 // app.use(cors({
-//   origin: 'https://library-frontend-gam7rflx7-nafish-nobels-projects.vercel.app'
+//   origin: 'https://library-frontend-gam7rflx7-nafish-nobels-projects.vercel.app',
 // }));
 // app.use(express.json({ limit: "25mb" }));
 
