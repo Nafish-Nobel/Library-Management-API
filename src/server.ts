@@ -55,5 +55,9 @@ mongoose.connect(MONGO_URI)
     console.error('Failed to connect:', error);
   });
 
+  app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
+
 // Export the app for Vercel
 export default app;
